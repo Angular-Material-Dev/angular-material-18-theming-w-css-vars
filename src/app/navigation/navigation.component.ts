@@ -40,6 +40,6 @@ export class NavigationComponent {
     );
 
   onThemeChange(event: MatSlideToggleChange) {
-    this.document.body.classList.toggle('dark');
+    this.document.documentElement.classList.toggle('dark');
   }
 }
