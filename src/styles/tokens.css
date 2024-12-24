@@ -1,0 +1,122 @@
+/* These tokens are generated using https://themes.angular-material.dev/ */
+/* Preview: https://themes.angular-material.dev/?seed-error=%23ffb4ab&seed-neutral=%2375777c&seed-neutral-variant=%23737781&seed-primary=%232c5f9f&seed-secondary=%23b7c7e6&seed-tertiary=%23f0b0fc */
+/* Seed Colors: primary: #2c5f9f, secondary: #b7c7e6, tertiary: #f0b0fc, error: #ffb4ab, neutral: #75777c, neutral-variant: #737781 */
+
+/* Light Theme */
+:root,
+:host {
+  --sys-primary: #2c5f9f;
+  --sys-on-primary: #ffffff;
+  --sys-primary-container: #d5e3ff;
+  --sys-on-primary-container: #001c3b;
+  --sys-inverse-primary: #a6c8ff;
+  --sys-primary-fixed: #d5e3ff;
+  --sys-primary-fixed-dim: #a6c8ff;
+  --sys-on-primary-fixed: #001c3b;
+  --sys-on-primary-fixed-variant: #054786;
+  --sys-secondary: #4f5f7a;
+  --sys-on-secondary: #ffffff;
+  --sys-secondary-container: #d5e3ff;
+  --sys-on-secondary-container: #0a1c33;
+  --sys-secondary-fixed: #d5e3ff;
+  --sys-secondary-fixed-dim: #b7c7e6;
+  --sys-on-secondary-fixed: #0a1c33;
+  --sys-on-secondary-fixed-variant: #384761;
+  --sys-tertiary: #7f498d;
+  --sys-on-tertiary: #ffffff;
+  --sys-tertiary-container: #fcd7ff;
+  --sys-on-tertiary-container: #340043;
+  --sys-tertiary-fixed: #fcd7ff;
+  --sys-tertiary-fixed-dim: #f0b0fc;
+  --sys-on-tertiary-fixed: #340043;
+  --sys-on-tertiary-fixed-variant: #653173;
+  --sys-background: #fcf8f8;
+  --sys-on-background: #1c1b1c;
+  --sys-surface: #fcf8f8;
+  --sys-surface-dim: #dcd9d9;
+  --sys-surface-bright: #fcf8f8;
+  --sys-surface-container-lowest: #ffffff;
+  --sys-surface-container-low: #f6f3f3;
+  --sys-surface-container: #f1eded;
+  --sys-surface-container-high: #ebe7e7;
+  --sys-surface-container-highest: #e5e2e1;
+  --sys-on-surface: #1c1b1c;
+  --sys-shadow: #000000;
+  --sys-scrim: #000000;
+  --sys-surface-tint: #5c5e63;
+  --sys-inverse-surface: #313030;
+  --sys-inverse-on-surface: #f3f0f0;
+  --sys-outline: #76777b;
+  --sys-outline-variant: #c6c6cb;
+  --sys-neutral: #797777;
+  --sys-neutral10: #1c1b1c;
+  --sys-error: #ba1a1a;
+  --sys-error-container: #ffdad6;
+  --sys-on-error: #ffffff;
+  --sys-on-error-container: #410002;
+  --sys-surface-variant: #e2e2e7;
+  --sys-on-surface-variant: #45474b;
+  --sys-neutral-variant: #76777c;
+  --sys-neutral-variant20: #2f3035;
+  --sys-inverse-secondary: #b7c7e6;
+  --sys-inverse-tertiary: #f0b0fc;
+}
+
+/* Dark Theme */
+.dark {
+  --sys-primary: #a6c8ff;
+  --sys-on-primary: #003060;
+  --sys-primary-container: #054786;
+  --sys-on-primary-container: #d5e3ff;
+  --sys-inverse-primary: #2c5f9f;
+  --sys-primary-fixed: #d5e3ff;
+  --sys-primary-fixed-dim: #a6c8ff;
+  --sys-on-primary-fixed: #001c3b;
+  --sys-on-primary-fixed-variant: #054786;
+  --sys-secondary: #b7c7e6;
+  --sys-on-secondary: #213149;
+  --sys-secondary-container: #384761;
+  --sys-on-secondary-container: #d5e3ff;
+  --sys-secondary-fixed: #d5e3ff;
+  --sys-secondary-fixed-dim: #b7c7e6;
+  --sys-on-secondary-fixed: #0a1c33;
+  --sys-on-secondary-fixed-variant: #384761;
+  --sys-tertiary: #f0b0fc;
+  --sys-on-tertiary: #4c195b;
+  --sys-tertiary-container: #653173;
+  --sys-on-tertiary-container: #fcd7ff;
+  --sys-tertiary-fixed: #fcd7ff;
+  --sys-tertiary-fixed-dim: #f0b0fc;
+  --sys-on-tertiary-fixed: #340043;
+  --sys-on-tertiary-fixed-variant: #653173;
+  --sys-background: #131314;
+  --sys-on-background: #e5e2e1;
+  --sys-surface: #131314;
+  --sys-surface-dim: #131314;
+  --sys-surface-bright: #3a3939;
+  --sys-surface-container-lowest: #0e0e0e;
+  --sys-surface-container-low: #1c1b1c;
+  --sys-surface-container: #201f20;
+  --sys-surface-container-high: #2a2a2a;
+  --sys-surface-container-highest: #353435;
+  --sys-on-surface: #e5e2e1;
+  --sys-shadow: #000000;
+  --sys-scrim: #000000;
+  --sys-surface-tint: #c5c6cc;
+  --sys-inverse-surface: #e5e2e1;
+  --sys-inverse-on-surface: #313030;
+  --sys-outline: #8f9095;
+  --sys-outline-variant: #45474b;
+  --sys-neutral: #797777;
+  --sys-neutral10: #1c1b1c;
+  --sys-error: #ffb4ab;
+  --sys-error-container: #93000a;
+  --sys-on-error: #690005;
+  --sys-on-error-container: #ffdad6;
+  --sys-surface-variant: #45474b;
+  --sys-on-surface-variant: #c6c6cb;
+  --sys-neutral-variant: #76777c;
+  --sys-neutral-variant20: #2f3035;
+  --sys-inverse-secondary: #4f5f7a;
+  --sys-inverse-tertiary: #7f498d;
+}

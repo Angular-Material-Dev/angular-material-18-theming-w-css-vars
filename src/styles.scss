@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+@use "@angular/material" as mat;
+@use "./styles/m3-theme" as m3;
+@include mat.core();
+
+:root {
+  @include mat.all-component-themes(m3.$light-theme);
+  @include mat.system-level-colors(m3.$light-theme);
+  @include mat.system-level-typography(m3.$light-theme);
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
